@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gemini335l</name>
+  <version>0.1.0</version>
+  <description>Convert depth image to PointCloud2 with TF publishing for Gemini 335L</description>
+   <maintainer email="ee223005@meiji.ac.jp">Your Name</maintainer>
+  
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>message_filters</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>opencv</exec_depend>
+
+  <!-- <build_export_depend>rclcpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>tf2_ros</build_export_depend> -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
