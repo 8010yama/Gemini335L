@@ -1,0 +1,22 @@
+# ビルドフォルダ全体（例: build/）
+build/
+
+# 一時ファイル、バックアップファイル
+*.tmp
+*.bak
+*~
+
+# Visual Studio Codeなどの設定ファイル
+.vscode/
+
+# バイナリ実行ファイル（例）
+*.exe
+*.out
+
+# Pythonのキャッシュファイル（もしPython使うなら）
+__pycache__/
+*.pyc
+
+# OSによる隠しファイル
+.DS_Store
+Thumbs.db
